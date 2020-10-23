@@ -1,21 +1,20 @@
-﻿using SchoolDomain.Models;
-using System;
+﻿using SchoolDomain;
 
 namespace SchoolData
 {
     public class Data
     {
-        public void CreateStudent(Student student)
+        public void AddStudent(Student student)
         {
             Student.Students.Add(student);
         }
 
-        public void CreateInstructor(Instructor instructor)
+        public void AddInstructor(Instructor instructor)
         {
             Instructor.Instructors.Add(instructor);
         }
 
-        public void CreateCourse(Course course)
+        public void AddCourse(Course course)
         {
             Course.Courses.Add(course);
         }

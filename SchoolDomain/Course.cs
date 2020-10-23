@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace SchoolDomain.Models
+namespace SchoolDomain
 {
     public class Course
     {
