@@ -2,13 +2,13 @@
 
 namespace SchoolDomain.Models
 {
-    public class InstructorModel
+    public class Instructor
     {
-        public static List<InstructorModel> Instructors;
+        public static List<Instructor> Instructors;
 
-        static InstructorModel()
+        static Instructor()
         {
-            Instructors = new List<InstructorModel>();
+            Instructors = new List<Instructor>();
         }
 
         public int Id { get; set; }

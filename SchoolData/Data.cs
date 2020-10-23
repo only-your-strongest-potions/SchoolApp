@@ -5,19 +5,19 @@ namespace SchoolData
 {
     public class Data
     {
-        public void CreateStudent(StudentModel model)
+        public void CreateStudent(Student student)
         {
-            StudentModel.Students.Add(model);
+            Student.Students.Add(student);
         }
 
-        public void CreateInstructor(InstructorModel model)
+        public void CreateInstructor(Instructor instructor)
         {
-            InstructorModel.Instructors.Add(model);
+            Instructor.Instructors.Add(instructor);
         }
 
-        public void CreateCourse(CourseModel model)
+        public void CreateCourse(Course course)
         {
-            CourseModel.Courses.Add(model);
+            Course.Courses.Add(course);
         }
     }
 }

@@ -4,13 +4,13 @@ using System.Text;
 
 namespace SchoolDomain.Models
 {
-    public class StudentModel
+    public class Student
     {
-        public static List<StudentModel> Students;
+        public static List<Student> Students;
 
-        static StudentModel()
+        static Student()
         {
-            Students = new List<StudentModel>();
+            Students = new List<Student>();
         }
 
         public int Id { get; set; }

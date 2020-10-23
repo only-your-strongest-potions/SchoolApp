@@ -1,4 +1,5 @@
 ﻿using SchoolService;
+using System;
 
 namespace SchoolApp
 {
@@ -10,6 +11,8 @@ namespace SchoolApp
             service.Controller("CreateStudent", new string[] { "1", "Bob Smith", "0" });
             service.Controller("CreateInstructor", new string[] { "1", "Prof. Doe" });
             service.Controller("createcourse", new string[] { "1", "Algebra", "3" });
+
+            Console.ReadLine();
         }
     }
 }

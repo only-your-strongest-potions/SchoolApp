@@ -9,22 +9,22 @@ namespace SchoolBusiness
         public void AddStudent(int id, string name, double gpa)
         {
             var data = new Data();
-            var model = new StudentModel { Id = id, Name = name, Gpa = gpa };
-            data.CreateStudent(model);
+            var student = new Student { Id = id, Name = name, Gpa = gpa };
+            data.CreateStudent(student);
         }
 
         public void AddInstructor(int id, string name)
         {
             var data = new Data();
-            var model = new InstructorModel { Id = id, Name = name };
-            data.CreateInstructor(model);
+            var instructor = new Instructor { Id = id, Name = name };
+            data.CreateInstructor(instructor);
         }
 
         public void AddCourse(int id, string name, int creditHours)
         {
             var data = new Data();
-            var model = new CourseModel { Id = id, Name = name, CreditHours = creditHours };
-            data.CreateCourse(model);
+            var course = new Course { Id = id, Name = name, CreditHours = creditHours };
+            data.CreateCourse(course);
         }
     }
 }
